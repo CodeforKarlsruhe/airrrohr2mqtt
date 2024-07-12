@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: EUPL-1.2
+
+config.mqtt.php
+vendor/
+bin/
+data/
+composer*
+installer
+tmp*
+nogit*

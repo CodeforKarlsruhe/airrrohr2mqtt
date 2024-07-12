@@ -1,0 +1,32 @@
+<?php
+
+// SPDX-License-Identifier: EUPL-1.2
+// adapted from https://github.com/php-mqtt/client-examples/blob/master/shared/config.php
+// original MIT licensed
+
+declare(strict_types=1);
+
+define('MQTT_BROKER_HOST', 'localhost');
+define('MQTT_BROKER_PORT', 1883);
+define('MQTT_BROKER_TLS_PORT', 8883);
+
+define('TLS_SERVER_CA_FILE', '');
+define('TLS_CLIENT_CERTIFICATE_FILE', '');
+define('TLS_CLIENT_CERTIFICATE_KEY_FILE', '');
+define('TLS_CLIENT_CERTIFICATE_KEY_PASSPHRASE', null);
+
+define('AUTHORIZATION_USERNAME', '');
+define('AUTHORIZATION_PASSWORD', '');
+
+// optional: change topic
+// $mqtttopic="airrohr/"+$headers['Sensor'];
+// optional: create different message
+//$mqttvalues=array();
+//$mqttvalues['sensid']=5; // for esp8266-1785694
+//$mqttvalues['temp']=floatval($values["BME280_temperature"]);
+//$mqttvalues['pm']=floatval($values["SDS_P1"]);
+//$mqttmsg=json_encode($mqttvalues);
+
+//fwrite($debugfile,"\ndebug config: ".implode($values)."\n");
+
+
